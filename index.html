@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="the way to buy eats through uber service">
+  <meta name="keywords" content="buy eats, uber eats, uber service">
+  <title>Uber eats</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico"> 
+  <!-- OG Tags -->
+  <meta property="og:title" content="Uber_eats">
+  <meta property="og:description" content="the way to buy eats through uber service">
+  <meta property="og:image" content="img/favicon.ico">
+  <meta property="og:site_name" content="UberEats">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=cyrillic" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Media CSS -->
+  <link rel="stylesheet" href="css/media.css">
+  <!-- jQuery -->
+  <script src="js/jquery-1.12.0.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo">
+      </a>
+      <!-- .logo -->
+      <div class="adress d-none">
+        <span class="adress__info border">ASAP</span>
+        <span class="adress__to">to</span>
+        <input class="adress__text border" type="text" placeholder="ul. Tarasivska St, 16">
+      </div>
+      <!-- .adress -->
+      <div class="registr">
+        <button class="registr__signin btn border">Sign In</button>  
+        <button class="registr__in btn">Register</button>
+        <a class="registr__basket d-none" href="#"><img src="img/basket.png" alt="basket"></a>
+      </div>
+      <!-- .registr -->
+    </div>
+    <!-- .container -->
+  </header>
+  <!-- #header -->
+  <main>
+    <div class="container">
+      <div class="search">
+        <input type="text" class="search__input" placeholder="Search for restaurant or cuisine">
+      </div>
+      <!-- .search -->
+      <div class="adress-hide">
+        <span class="adress__info-hide border">ASAP</span>
+        <div class="adress__input-hide">
+          <input class="adress__text-hide border" type="text" placeholder="ul. Tarasivska St, 16">
+        </div>
+        <!-- .adress__input-hide -->
+      </div>
+      <!-- .adress-hide -->
+      <h1>Kyiv Restaurants</h1>
+      <div class="wrapper">
+        <div class="card">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_mac.jpg" alt="mac">
+          </div>
+          <!-- .card__photo -->
+          <div class="card__info">
+            <a class="card__name" href="#">Макдоналдс</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Бургеры</a></li>
+            </ul>
+            <span class="card__time">25 - 35 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_wokwei.jpg" alt="wokwei">
+          </div>    
+          <!-- .card__photo -->
+          <div class="card__info">
+            <a class="card__name" href="#">WOKWEI</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Китайська</a></li>
+              <li class="card__menu-item"><a href="#">Азiатська</a></li>
+            </ul>
+            <span class="card__time">40 - 50 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_yizha.jpg" alt="yizha">
+          </div>  
+          <!-- .card__photo -->
+          <div class="card__info">
+            <a class="card__name" href="#">YIZHA</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Американська</a></li>
+              <li class="card__menu-item"><a href="#">Бургери</a></li>
+              <li class="card__menu-item"><a href="#">Вулична їжа</a></li>
+            </ul>
+            <span class="card__time">35 - 45 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_musafir.jpg" alt="musafir">
+          </div>
+          <!-- .card__photo -->
+          <div class="card__info">
+            <a class="card__name" href="#">Musafir (вул. Саксаганського)</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Блізькосхідна</a></li>
+            </ul>
+            <span class="card__time">30 - 40 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card d-none">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_wokweii.jpg" alt="wokwei">
+          </div>
+          <!-- .card__photo -->
+          <div class="card__info">
+            <a class="card__name" href="#">WOKWEI</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Китайська</a></li>
+              <li class="card__menu-item"><a href="#">Азiатська</a></li>
+            </ul>
+            <span class="card__time">25 - 35 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card d-none">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_milkbar.jpg" alt="milkbar">
+          </div>
+          <!-- .card__photo -->
+          <div class="card__info">
+            <a href="#" class="card__name">Milk Bar</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Десерти</a></li>
+              <li class="card__menu-item"><a href="#">Європейська</a></li>
+            </ul>
+            <span class="card__time">25 - 35 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card d-none">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_mimoza.jpg" alt="mimoza">
+          </div>   
+          <!-- .card__photo --> 
+          <div class="card__info">
+            <a class="card__name" href="#">Mimosa Brooklyn Pizza</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Італійська</a></li>
+              <li class="card__menu-item"><a href="#">Піца</a></li>
+              <li class="card__menu-item"><a href="#">Американська</a></li>
+            </ul>
+            <span class="card__time">15 - 25 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card d-none">
+          <div class="card__photo">
+            <img class="card__img" src="img/img_tobe.jpg" alt="tobe">
+          </div>
+          <!-- .card__photo --> 
+          <div class="card__info">
+            <a class="card__name" href="#">To Be</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Японська</a></li>
+              <li class="card__menu-item"><a href="#">Азіатська</a></li>
+              <li class="card__menu-item"><a href="#">Суші</a></li>
+            </ul>
+            <span class="card__time">25 - 35 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+        <div class="card d-none">
+          <div class="card__photo">
+           <img class="card__img" src="img/img_druzicafe.jpg" alt="druzicafe">
+          </div>
+          <!-- .card__photo -->
+          <div class="card__info">
+            <a class="card__name" href="#">Druzi Cafe (вул. Прорізна)</a>
+            <ul class="card__menu">
+              <li class="card__menu-item"><a href="#">&#8372;&#8372;</a></li>
+              <li class="card__menu-item"><a href="#">Американська</a></li>
+              <li class="card__menu-item"><a href="#">Сучасна європейська</a></li>
+            </ul>
+            <span class="card__time">30 - 40 Min</span>
+          </div>
+          <!-- .card__info -->
+        </div>
+        <!-- .card -->
+      </div>
+      <!-- .wrapper -->
+    </div>    
+    <!-- .container -->
+  </main>
+  <!-- main -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="img/white-logo.png" alt="logo">
+      </a>
+      <!-- .footer .logo -->
+      <div class="footer-info">
+        <div class="first-column">
+          <select class="lang" name="lang">
+            <option selected value="english">ENGLISH</option>
+            <option value="russian">RUSSIAN</option>
+            <option value="ukrainian">UKRAINIAN</option>
+          </select>
+          <!-- .lang -->
+          <div class="social">
+            <a href="#" class="social__hashtag-link">
+              <span class="social__hashtag">#</span>
+              <span>UberEats</span>
+            </a>
+            <!-- .social__hashtag-link -->
+            <ul class="social__menu">
+              <li class="social__item"><a class="social__link" href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+              <li class="social__item"><a class="social__link" href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+              <li class="social__item"><a class="social__link" href="#"><img src="img/instagram.png" alt="instagram"></a></li>
+            </ul>
+            <!-- .social__menu -->
+          </div>
+          <!-- .social -->
+        </div >
+        <!-- .first-column -->
+        <div class="second-column">
+          <ul class="menu">
+            <li><a href="#">About UberEats</a></li>
+            <li><a href="#">Become a Delivery Partner</a></li>
+            <li><a href="#">Become a Restaurant Partner</a></li>
+          </ul>
+          <!-- .second-column .menu -->
+        </div>
+        <!-- .second-column -->
+        <div class="third-column">
+          <ul class="menu">
+            <li><a href="#">See all cities</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+          <!-- .third-column .menu -->
+        </div>
+        <!-- .third-column -->
+      </div>
+      <!-- .footer-info -->
+      <div class="footer-download">
+        <button class="footer-download__appstore"><img src="img/appstore.png" alt="appstore"></button>
+        <button class="footer-download__googleplay"><img src="img/google.png" alt="googleplay"></button>
+      </div>
+      <!-- .footer-download -->
+      <div class="footer-down">
+        <span>&copy; 2019 Uber Technologies Inc.</span>
+        <span class="privacy">Privacy</span>
+        <span>Terms</span>
+      </div>
+      <!-- .footer-down -->
+      <a href="#header" class="footer-btn">
+        <img src="img/arrow1.png" alt="arrow">
+      </a>
+      <!-- .footer-btn -->
+    </div>
+    <!-- .container -->
+  </footer>
+  <!-- .footer -->
+</body>
+</html>
