@@ -29,6 +29,13 @@ input {
   font-weight: 400;
 }
 
+button {
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -294,7 +301,9 @@ input[type='text']:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 .social__item + .social__item {
   margin-left: 12px;
 }
-.social__link {
+.social__link, .card__photo a,
+.footer-download__appstore a,
+.footer-download__googleplay a {
   display: block;
 }
 .footer-info a{
