@@ -1,0 +1,130 @@
+/* ======== Media Queries ========= */
+
+/* 1024px + ...---*/
+@media (min-width: 1024px){
+  .container {
+    max-width: 956px;
+  }
+}
+
+/* 640px-1023px ----Tablet-*/
+@media screen and (max-width: 1023px) {
+  .card {
+    width: 49%;
+  }
+  .card__photo {
+    width: 100%;
+    height: auto;
+  }
+  .card__img {
+    width: 100%;
+  }
+  .adress__info {
+    font-size: 1.8vw;
+  }
+  .adress__text {
+    font-size: 1.8vw;
+  }
+}
+
+/* 321-639px ----Tablet-*/
+@media screen and (max-width: 639px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    /* max-width: 308px; */
+  }
+  .adress-hide {
+    display: flex;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .adress__info-hide {
+    padding: 9px 0 9px;
+    width: 21%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5%;
+    position: relative;
+  }
+  .adress__info-hide::before {
+    content: "When";
+    display: block;
+    position: absolute;
+    top: -24px;
+    left: 0;
+    color: #626262;
+    font-size: 11px;
+  }
+  .adress__input-hide {
+    width: 74%;
+    position: relative;
+  }
+  .adress__input-hide::before {
+    content: "to";
+    display: block;
+    position: absolute;
+    top: -21px;
+    left: 0;
+    color: #626262;
+    font-size: 11px;
+  }
+  .adress__text-hide {
+    width: 100%;
+    padding: 9px 0 9px 35px;
+    background: url(../img/location.png) no-repeat 9px center;
+    line-height: 20px;
+    position: relative;
+  }
+  .d-none {
+    display: none;
+  }
+  .header .logo {
+    width: 30%;
+  }
+  .registr__in {
+    margin: 0 0px 0 16px;
+  }
+  .search__input {
+    margin: 14px 0 20px;
+  }
+  .card {
+    margin: 0 auto 39px;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+  .footer-down span{
+    width: 100%;
+    display: block;
+  }
+  .footer-down span + span {
+    margin: 24px 0 0 0;
+  }
+  .footer-download {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-download button {
+    margin-left: 0;
+  }
+  .footer-info {
+    display: block;
+  }
+  .first-column {
+    width: 57%;
+    margin-bottom: 42px;
+  }
+  .second-column,
+  .third-column {
+    width: 80%;
+  }
+  .footer-btn {
+    width: 64px;
+    height: 64px;
+  }  
+}
